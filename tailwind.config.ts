@@ -10,16 +10,35 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      colors: {
+        primary: '#ff9f27',
+        secondary: '#ff2760',
+        gray: {
+          900: "#182329",
+        },
       },
     },
-    colors: {
-      gray: {
-        900: "#182329"
-      }
-    }
+  },
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: '#ff9f27',
+          secondary: '#ff2760',
+          accent: '#37cdbe',
+          neutral: '#3d4451',
+          'base-100': '#ffffff',
+          info: '#2094f3',
+          success: '#009485',
+          warning: '#ff9900',
+          error: '#ff5724',
+        },
+      },
+    ],
   },
   plugins: [require('daisyui')],
 };
+
 export default config;

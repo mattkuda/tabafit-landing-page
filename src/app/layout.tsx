@@ -16,6 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.png" sizes="any" />
+        <link rel="icon" href="/favicon-64.png" sizes="64x64" />
+        <link rel="apple-touch-icon" href="/favicon-64.png" />
+        <meta name="theme-color" content="#ffffff" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
