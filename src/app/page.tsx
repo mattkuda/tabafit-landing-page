@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useState } from 'react';
+import { IconArrowRight } from '@tabler/icons-react';
 
 export default function Home() {
   const [email, setEmail] = useState('');
@@ -94,22 +95,14 @@ export default function Home() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <button
+           <button
             className="btn
             transition ease-in-out  hover:scale-105 duration-300 
             text-lg w-full max-w-md bg-gradient-to-r from-primary to-secondary border-none flex items-center justify-center"
             onClick={handleJoinWaitlist}
           >
             Join Waitlist
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-            </svg>
+            <IconArrowRight />
           </button>
         </div>
       </div>

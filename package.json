@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tabler/icons-react": "^3.10.0",
     "daisyui": "^4.12.10",
     "next": "14.2.4",
     "react": "^18",
