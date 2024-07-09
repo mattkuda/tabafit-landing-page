@@ -60,13 +60,9 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between bg-gray-900 text-white">
       {showToast && (
         <div className={`fixed z-50 top-0 left-1/2 transform -translate-x-1/2 mt-4 px-4 py-2 rounded shadow-lg flex items-center ${toastType === 'success' ? 'bg-green-500' : 'bg-red-500'}`}>
-          {toastType === 'success' ? (
+          {toastType === 'success' && (
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-            </svg>
-          ) : (
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
           )}
           {toastMessage}
@@ -85,7 +81,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="flex flex-col items-center text-center mt-10 max-w-3xl">
+      <div className="flex flex-col items-center text-center mt-10 max-w-3xl p-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Your Tabata Workout Community</h1>
         <p className="text-lg md:text-xl mb-6">
           TabaFit delivers custom Tabata workouts, an active community of support, and the tools to reach your fitness goals.
