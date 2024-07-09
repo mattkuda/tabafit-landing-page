@@ -7,7 +7,7 @@ export default function Home() {
   const [email, setEmail] = useState('');
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
-  const [toastType, setToastType] = useState(''); // 'success' or 'error'
+  const [toastType, setToastType] = useState('');
 
   const validateEmail = (email: string) => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -59,7 +59,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-gray-900 text-white">
       {showToast && (
-        <div className={`fixed top-0 left-1/2 transform -translate-x-1/2 mt-4 px-4 py-2 rounded shadow-lg flex items-center ${toastType === 'success' ? 'bg-green-500' : 'bg-red-500'}`}>
+        <div className={`fixed z-50 top-0 left-1/2 transform -translate-x-1/2 mt-4 px-4 py-2 rounded shadow-lg flex items-center ${toastType === 'success' ? 'bg-green-500' : 'bg-red-500'}`}>
           {toastType === 'success' ? (
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
