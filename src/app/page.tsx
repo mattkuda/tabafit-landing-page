@@ -84,7 +84,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center text-center mt-10 max-w-3xl p-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Your Tabata Workout Community</h1>
-        <p className="text-lg md:text-xl mb-6">
+        <p className="text-lg md:text-xl mb-6 text-gray-300">
           TabaFit delivers custom Tabata workouts, an active community of support, and the tools to reach your fitness goals.
         </p>
         <div className="flex flex-col items-center w-full">
