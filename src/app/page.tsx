@@ -3,6 +3,9 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { IconArrowRight, IconCheck, IconX } from '@tabler/icons-react';
+import WorkoutSection from './components/WorkoutSection';
+import SuccessStories from './components/SuccessStories';
+import DownloadButton from './components/DownloadButton';
 
 export default function Home() {
   const [email, setEmail] = useState('');
@@ -101,6 +104,7 @@ export default function Home() {
             Join Waitlist
             <IconArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-2" />
           </button>
+          {/* <DownloadButton/> */}
         </div>
       </div>
       {/* App Screenshots Placeholder */}
@@ -113,6 +117,9 @@ export default function Home() {
           priority
         />
       </div>
+      {/* New Workout Section */}
+      <WorkoutSection />
+      <SuccessStories/>
       {/* FAQ Section */}
       <section className="w-full mt-16 bg-gray-100 text-black py-12 px-4">
         <div className="max-w-5xl mx-auto">
