@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function WorkoutSection() {
+export default function HowItWorksSection() {
   return (
     <section className="w-full mt-16 bg-gray-100 text-black py-12 px-4">
       <div className="max-w-3xl mx-auto">
