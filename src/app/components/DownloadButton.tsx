@@ -8,7 +8,7 @@ export default function DownloadButton() {
 
   // Detect if the user is on a mobile device
   useEffect(() => {
-    const userAgent = typeof window.navigator === "undefined" ? "" : navigator.userAgent;
+    const userAgent = typeof window.navigator === 'undefined' ? '' : navigator.userAgent;
     const mobileRegex = /iPhone|iPad|iPod|Android/i;
     setIsMobile(mobileRegex.test(userAgent));
   }, []);

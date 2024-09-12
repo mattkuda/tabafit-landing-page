@@ -24,7 +24,7 @@ export default function WaitlistForm() {
     try {
       const response = await fetch('https://tabafit.up.railway.app/waitlist', {
         method: 'POST',
-        headers: {  
+        headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ email }),
