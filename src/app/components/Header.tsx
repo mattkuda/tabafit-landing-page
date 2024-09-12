@@ -14,7 +14,7 @@ export default function Header() {
           <a
             href="#"
             className="inline-block bg-gradient-to-r from-primary to-secondary text-white font-semibold py-2 px-4 rounded-full transition duration-300 hover:bg-gray-200"
-            >
+          >
             Download TabaFit &#10140;
           </a>
         </nav>

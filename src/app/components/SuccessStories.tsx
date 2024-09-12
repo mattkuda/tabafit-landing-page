@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function SuccessStories() {
   return (
     <section className="w-full mt-16 text-black py-12 px-4 text-white">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto" data-aos="fade-up">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Success Stories</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* First column */}

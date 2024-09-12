@@ -1,7 +1,7 @@
 export default function FAQSection() {
     return (
       <section id="faq" className="w-full mt-16 bg-gray-100 text-black py-12 px-4">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Frequently Asked Questions</h2>
           <div className="space-y-8">
             <details className="bg-white rounded-lg shadow p-4 group">

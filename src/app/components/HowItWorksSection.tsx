@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function HowItWorksSection() {
   return (
     <section className="w-full mt-16 bg-gray-100 text-black py-12 px-4">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto" data-aos="fade-up">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Your Workout Journey with TabaFit</h2>
 
         {/* First row: Text on the left, image on the right */}
