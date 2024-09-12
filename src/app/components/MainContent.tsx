@@ -16,7 +16,7 @@ export default function MainContent() {
       {/* Waitlist Form Component */}
       <WaitlistForm /> {/* This is where the WaitlistForm is rendered */}
       {false && <DownloadButton/>}
-      <div className="relative mt-10 w-full max-w-5xl h-96 lg:h-[500px]">
+      <div className="relative mt-10 w-full max-w-5xl h-96 lg:h-[500px]" data-aos="fade-up">
         <Image
           src="/workouts-mockup.png"
           alt="App Screenshot"

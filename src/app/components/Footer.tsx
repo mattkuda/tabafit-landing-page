@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer className="bg-gray-800 text-white py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between items-center">
@@ -11,7 +11,7 @@ export default function Footer() {
             <Image src="/header-logo.png" alt="TabaFit Logo" width={160} height={40} />
             <a
               href="#"
-              className="inline-block bg-gradient-to-r from-primary to-secondary text-white font-semibold py-2 px-4 rounded-full transition duration-300 hover:bg-gray-200"
+              className="inline-block bg-gradient-to-br from-primary to-secondary text-white font-semibold py-2 px-4 rounded-full transition duration-300 hover:bg-gray-200"
             >
               Download TabaFit &#10140;
             </a>

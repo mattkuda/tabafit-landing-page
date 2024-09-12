@@ -16,7 +16,8 @@ const config: Config = {
         primary: '#ff9f27',
         secondary: '#ff2760',
         gray: {
-          900: "#182329",
+          800: '#182329',
+          900: '#0f1317',
         },
       },
     },

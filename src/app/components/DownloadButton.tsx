@@ -27,7 +27,7 @@ export default function DownloadButton() {
   return (
     <>
       {/* {showQRModal && (
-        <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-75 z-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-50">
           <div className="bg-white p-6 rounded-lg text-center">
             <h2 className="text-2xl font-bold mb-4">Download TabaFit</h2>
             <p className="mb-4">Scan this QR code with your mobile device to download the app.</p>
@@ -51,7 +51,7 @@ export default function DownloadButton() {
         </div>
       )} */}
       {showQRModal && (
-        <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-75 z-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-50">
           <div className="relative bg-white p-6 rounded-lg text-center">
             {/* Close Button in the top-right corner */}
             <button
@@ -78,7 +78,7 @@ export default function DownloadButton() {
 
       <div className="flex flex-col items-center w-full mt-4">
         <button
-          className="btn text-lg w-full max-w-md bg-gradient-to-r from-primary to-secondary border-none flex items-center justify-center group transition ease-in-out hover:scale-105 duration-300"
+          className="btn text-lg w-full max-w-md bg-gradient-to-br from-primary to-secondary border-none flex items-center justify-center group transition ease-in-out hover:scale-105 duration-300"
           onClick={handleDownloadClick}
         >
           Download TabaFit

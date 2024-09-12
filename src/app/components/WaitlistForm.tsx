@@ -74,7 +74,7 @@ export default function WaitlistForm() {
         onChange={(e) => setEmail(e.target.value)}
       />
       <button
-        className="btn text-lg w-full max-w-md bg-gradient-to-r from-primary to-secondary border-none flex items-center justify-center group transition ease-in-out hover:scale-105 duration-300"
+        className="btn text-lg w-full max-w-md bg-gradient-to-br from-primary to-secondary border-none flex items-center justify-center group transition ease-in-out hover:scale-105 duration-300"
         onClick={handleJoinWaitlist}
       >
         Join Waitlist

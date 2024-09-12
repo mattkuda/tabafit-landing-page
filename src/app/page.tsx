@@ -20,7 +20,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="scroll-smooth bg-gray-900 text-white">
+    <main className="scroll-smooth bg-gray-800 text-white">
       <Header />
       <MainContent />
       <section id="how-it-works" className="bg-white">
