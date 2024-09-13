@@ -21,7 +21,10 @@ export const FAQSection = (): JSX.Element => (
         <details className="bg-white rounded-lg shadow p-4 group">
           <summary className="font-semibold text-lg cursor-pointer group-hover:text-primary">What is Tabata?</summary>
           <div className="mt-2 text-sm text-gray-600">
-                          Tabata is a form of high-intensity interval training (HIIT) that consists of eight rounds of 20 seconds of intense exercise followed by 10 seconds of rest. It was developed by Dr. Izumi Tabata in Japan. The benefits of Tabata include improved cardiovascular health, increased metabolism, and efficient fat burning. This workout can be completed in just four minutes, making it a quick and effective exercise option.
+                          Tabata is a form of high-intensity interval training (HIIT) that consists of eight rounds of 20 seconds of intense exercise followed by 10 seconds of rest. It was developed by Dr. Izumi Tabata in Japan.
+            <br />
+            <br />
+                           The benefits of Tabata include improved cardiovascular health, increased metabolism, and efficient fat burning. This workout can be completed in just four minutes, making it a quick and effective exercise option.
           </div>
         </details>
         <details className="bg-white rounded-lg shadow p-4 group">

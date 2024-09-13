@@ -22,13 +22,13 @@ const Home = (): JSX.Element => {
     <main className="scroll-smooth bg-gray-800 text-white">
       <Header />
       <MainContent />
-      <section id="how-it-works" className="bg-white">
+      <section id="how-it-works" className="scroll-offset bg-white">
         <HowItWorksSection />
       </section>
-      <section id="testimonials">
+      <section id="testimonials" className='scroll-offset'>
         <SuccessStories />
       </section>
-      <section id="faq" className="bg-gray-100">
+      <section id="faq" className="scroll-offset bg-gray-100">
         <FAQSection />
       </section>
       <Footer />

@@ -1,3 +1,4 @@
+import { IconArrowRight } from '@tabler/icons-react';
 import Image from 'next/image';
 
 export const Footer = (): JSX.Element => (
@@ -9,10 +10,10 @@ export const Footer = (): JSX.Element => (
         <div className="text-center space-y-4 md:text-left mb-6 md:mb-0">
           <Image alt="TabaFit Logo" height={40} src="/header-logo.png" width={160} />
           <a
-            className="inline-block bg-gradient-to-br from-primary to-secondary text-white font-semibold py-2 px-4 rounded-full transition duration-300 hover:bg-gray-200"
+            className="flex bg-gradient-to-br from-primary to-secondary text-white font-semibold py-2 px-4 rounded-full transition duration-300 hover:bg-gray-200"
             href="#"
           >
-                          Download TabaFit &#10140;
+            Download TabaFit<IconArrowRight className="ml-2" />
           </a>
         </div>
 
