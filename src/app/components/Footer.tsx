@@ -30,7 +30,7 @@ export const Footer = (): JSX.Element => (
 
           {/* Socials - Twitter Only */}
           <div className="flex justify-center md:justify-start space-x-4">
-            <a aria-label="Twitter" className="text-gray-400 hover:text-white" href="https://twitter.com">
+            <a aria-label="Twitter" className="text-gray-400 hover:text-white" href="https://twitter.com/tabafit">
               <svg
                 fill="currentColor"
                 height="24"
