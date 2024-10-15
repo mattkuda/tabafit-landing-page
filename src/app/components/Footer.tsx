@@ -16,7 +16,6 @@ export const Footer = (): JSX.Element => (
             Download TabaFit<IconArrowRight className="ml-2" />
           </a>
         </div>
-
         {/* Right Section - Links and Socials */}
         <div className="flex flex-col space-y-4 text-center md:text-left">
           {/* Simplified Links */}
@@ -24,10 +23,9 @@ export const Footer = (): JSX.Element => (
             <ul className="space-y-2">
               <li><a className="text-gray-400 hover:text-gray-200" href="#">Home</a></li>
               <li><a className="text-gray-400 hover:text-gray-200" href="#">About Us</a></li>
-              <li><a className="text-gray-400 hover:text-gray-200" href="#">Contact</a></li>
+              <li><a className="text-gray-400 hover:text-gray-200" href="mailto:tabafitapp@gmail.com">Contact Support</a></li>
             </ul>
           </div>
-
           {/* Socials - Twitter Only */}
           <div className="flex justify-center md:justify-start space-x-4">
             <a aria-label="Twitter" className="text-gray-400 hover:text-white" href="https://twitter.com/tabafit">
