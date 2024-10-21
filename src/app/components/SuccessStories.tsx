@@ -16,8 +16,8 @@ export const SuccessStories = (): JSX.Element => {
               ))}
             </div>
             <h3 className="text-xl font-bold mb-2">Game Changer</h3>
-            <p className="text-gray-600 italic text-gray-100 text-lg">"TabaFit transformed my fitness journey. I feel stronger and more motivated!"</p>
-            <p className="text-gray-600 italic text-gray-100 text-lg">- John Doe</p>
+            <p className="text-gray-300 italic text-lg">"TabaFit transformed my fitness journey. I feel stronger and more motivated!"</p>
+            <p className="text-gray-300 italic text-lg">- John Doe</p>
           </div>
 
           {/* Second column */}
@@ -30,8 +30,8 @@ export const SuccessStories = (): JSX.Element => {
               ))}
             </div>
             <h3 className="text-xl font-bold mb-2">Community Support</h3>
-            <p className="text-gray-600 italic text-gray-100 text-lg">"The community support in TabaFit helped me stay consistent. Highly recommend it!"</p>
-            <p className="text-gray-600 italic text-gray-100 text-lg">- Jane Smith</p>
+            <p className="text-gray-300 italic text-lg">"The community support in TabaFit helped me stay consistent. Highly recommend it!"</p>
+            <p className="text-gray-300 italic text-lg">- Jane Smith</p>
           </div>
           {/* Third column */}
           <div className="flex flex-col items-center text-center">
@@ -43,8 +43,8 @@ export const SuccessStories = (): JSX.Element => {
               ))}
             </div>
             <h3 className="text-xl font-bold mb-2">Love the Guided Workouts</h3>
-            <p className="text-gray-600 italic text-gray-100 text-lg">"The guided workouts are simple and easy to follow. The videos are super helpful and I've seen great results."</p>
-            <p className="text-gray-600 italic text-gray-100 text-lg">- Emily Clark</p>
+            <p className="text-gray-300 italic text-lg">"The guided workouts are simple and easy to follow. The videos are super helpful and I've seen great results."</p>
+            <p className="text-gray-300 italic text-lg">- Emily Clark</p>
           </div>
         </div>
       </div>
