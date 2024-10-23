@@ -29,9 +29,8 @@ export const SuccessStories = (): JSX.Element => {
                 </svg>
               ))}
             </div>
-            <h3 className="text-xl font-bold mb-2">Community Support</h3>
-            <p className="text-gray-300 italic text-lg">"The community support in TabaFit helped me stay consistent. Highly recommend it!"</p>
-            <p className="text-gray-300 italic text-lg">- Jane Smith</p>
+            <p className="text-gray-300 italic text-lg">"This app is a game changer for my workouts! The custom Tabata routines keep things fresh and engaging, and the flexibility allows me to easily exercise at home or on the road. Plus, the interactive community keeps me motivated. Highly recommend for anyone looking to elevate their fitness routine!"</p>
+            <p className="text-gray-300 italic text-lg">- Kim K</p>
           </div>
           {/* Third column */}
           <div className="flex flex-col items-center text-center">
