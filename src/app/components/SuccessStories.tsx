@@ -15,7 +15,7 @@ export const SuccessStories = (): JSX.Element => {
                 </svg>
               ))}
             </div>
-            <h3 className="text-xl font-bold mb-2">Game Changer</h3>
+            <h3 className="text-xl font-bold mb-2">Cardio is now fun</h3>
             <p className="text-gray-300 italic text-lg">"TabaFit transformed my fitness journey. I feel stronger and more motivated!"</p>
             <p className="text-gray-300 italic text-lg">- John Doe</p>
           </div>
@@ -29,7 +29,8 @@ export const SuccessStories = (): JSX.Element => {
                 </svg>
               ))}
             </div>
-            <p className="text-gray-300 italic text-lg">"This app is a game changer for my workouts! The custom Tabata routines keep things fresh and engaging, and the flexibility allows me to easily exercise at home or on the road. Plus, the interactive community keeps me motivated. Highly recommend for anyone looking to elevate their fitness routine!"</p>
+            <h3 className="text-xl font-bold mb-2">Game changer</h3>
+            <p className="text-gray-300 italic text-lg">"The custom Tabata routines keep things fresh and engaging, and the flexibility allows me to easily exercise at home or on the road. Plus, the interactive community keeps me motivated. Highly recommend for anyone looking to elevate their fitness routine!"</p>
             <p className="text-gray-300 italic text-lg">- Kim K</p>
           </div>
           {/* Third column */}
