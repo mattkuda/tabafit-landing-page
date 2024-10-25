@@ -13,17 +13,6 @@ export default function DownloadButton() {
     setIsMobile(mobileRegex.test(userAgent));
   }, []);
 
-  // Function to handle "Download" button click
-  const handleDownloadClick = () => {
-    if (isMobile) {
-      // Redirect to App Store on mobile devices
-      window.location.href = 'https://apps.apple.com/app/idYOUR_APP_ID'; // Replace with your App Store link
-    } else {
-      // Show QR modal on desktop
-      setShowQRModal(true);
-    }
-  };
-
   return (
     <>
       {/* {showQRModal && (
@@ -63,7 +52,6 @@ export default function DownloadButton() {
 
             {/* Modal Header */}
             <h2 className="text-2xl font-bold mb-4 text-black">Scan to install TabaFit</h2>
-
             {/* QR Code */}
             <Image
               src="/favicon.png"
@@ -75,15 +63,14 @@ export default function DownloadButton() {
             />          </div>
         </div>
       )}
-
       <div className="flex flex-col items-center w-full mt-4">
-        <button
+        <a
           className="btn text-lg w-full max-w-md bg-gradient-to-br from-primary to-secondary border-none flex items-center justify-center group transition ease-in-out hover:scale-105 duration-300"
-          onClick={handleDownloadClick}
+          href="https://apps.apple.com/us/app/tabafit/id6502636924"
         >
           Download TabaFit
-          <IconArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-2" />
-        </button>
+          <IconArrowRight className="ml-2" />
+        </a>
       </div>
     </>
   );

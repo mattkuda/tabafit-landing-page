@@ -11,7 +11,7 @@ export const Footer = (): JSX.Element => (
           <Image alt="TabaFit Logo" height={40} src="/header-logo.png" width={160} />
           <a
             className="flex bg-gradient-to-br from-primary to-secondary text-white font-semibold py-2 px-4 rounded-full transition duration-300 hover:bg-gray-200"
-            href="#"
+            href="https://apps.apple.com/us/app/tabafit/id6502636924"
           >
             Download TabaFit<IconArrowRight className="ml-2" />
           </a>
@@ -48,5 +48,5 @@ export const Footer = (): JSX.Element => (
         <p>©2024 TabaFit</p>
       </div>
     </div>
-  </footer>
+  </footer >
 );

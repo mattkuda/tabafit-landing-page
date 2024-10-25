@@ -9,15 +9,10 @@ export const MainContent = (): JSX.Element => (
 
       <h1 className="text-4xl md:text-6xl font-bold mb-4">Your Tabata Workout Community</h1>
       <p className="text-lg md:text-xl mb-6 text-gray-300">
-                TabaFit delivers custom Tabata workouts, an active community of support,
-                and the tools to reach your fitness goals.
+        TabaFit delivers custom Tabata workouts, an active community of support,
+        and the tools to reach your fitness goals.
       </p>
-
-      {/* Waitlist Form Component */}
-      <WaitlistForm />
-      {' '}
-      {/* This is where the WaitlistForm is rendered */}
-      {false && <DownloadButton />}
+      {<DownloadButton />}
       <div className="relative mt-10 w-full max-w-5xl h-96 lg:h-[500px]" data-aos="fade-up">
         <Image
           priority

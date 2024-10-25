@@ -34,9 +34,9 @@ export const Header = (): JSX.Element => {
             </a>
             <a
               className="flex bg-gradient-to-br from-primary to-secondary text-white font-semibold py-2 px-4 rounded-full transition duration-300 hover:bg-gray-200"
-              href="#"
+              href="https://apps.apple.com/us/app/tabafit/id6502636924"
             >
-                Download TabaFit<IconArrowRight className="ml-2" />
+              Download TabaFit<IconArrowRight className="ml-2" />
             </a>
           </div>
 
