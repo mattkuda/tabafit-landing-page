@@ -87,7 +87,7 @@ export const Header = (): JSX.Element => {
               <a
                 className="flex  m-auto bg-gradient-to-br from-primary to-secondary text-white font-semibold text-xl py-3 px-6 rounded-full transition duration-300 hover:bg-gray-200"
                 onClick={closeMenu}
-                href="#"
+                href="https://apps.apple.com/us/app/tabafit/id6502636924"
               >
                 Download TabaFit<IconArrowRight className="ml-2" />
               </a>
