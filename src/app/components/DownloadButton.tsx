@@ -65,11 +65,11 @@ export default function DownloadButton() {
       )}
       <div className="flex flex-col items-center w-full mt-4">
         <a
-          className="btn text-lg w-full max-w-md bg-gradient-to-br from-primary to-secondary border-none flex items-center justify-center group transition ease-in-out hover:scale-105 duration-300"
+          className="btn text-xl text-white w-full max-w-md bg-gradient-to-br from-primary to-secondary border-none flex items-center justify-center group transition ease-in-out hover:scale-105 duration-300"
           href="https://apps.apple.com/us/app/tabafit/id6502636924"
         >
           Download TabaFit
-          <IconArrowRight className="ml-2" />
+          <IconArrowRight className="ml-2 size-6" />
         </a>
       </div>
     </>
