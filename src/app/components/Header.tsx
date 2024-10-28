@@ -29,6 +29,9 @@ export const Header = (): JSX.Element => {
             <a className="text-white hover:text-gray-400" href="#testimonials">
               Testimonials
             </a>
+            <a className="text-white hover:text-gray-400" href="#our-story">
+              Our Story
+            </a>
             <a className="text-white hover:text-gray-400" href="#faq">
               FAQ
             </a>
@@ -48,8 +51,6 @@ export const Header = (): JSX.Element => {
           </div>
         </div>
       </div>
-
-      {/* Mobile Drawer */}
       <div className="drawer drawer-end">
         <input checked={isOpen} className="drawer-toggle" id="my-drawer" readOnly type="checkbox" />
 
@@ -76,6 +77,11 @@ export const Header = (): JSX.Element => {
             <li>
               <a className="text-xl py-2 px-4 hover:text-gray-400" href="#testimonials" onClick={closeMenu}>
                 Testimonials
+              </a>
+            </li>
+            <li>
+              <a className="text-xl py-2 px-4 hover:text-gray-400" href="#our-story" onClick={closeMenu}>
+                Our Story
               </a>
             </li>
             <li>
