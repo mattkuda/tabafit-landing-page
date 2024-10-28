@@ -6,34 +6,29 @@ export const OurStory = (): JSX.Element => {
       <div className="max-w-4xl mx-auto text-gray-100" data-aos="fade-up">
         <h2 className="text-4xl font-bold text-center mb-12">Our Story</h2>
 
-        {/* Profile and initial story text */}
-        <div className="flex gap-12 items-start mb-12">
-          <div className="w-48" data-aos="fade-right">
-            <div className="rounded-lg overflow-hidden border-4 border-gray-700 shadow-xl">
-              <img
-                src="/mattkuda.png"
-                alt="Matt - Creator of TabaFit"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
-
-          {/* Initial story text */}
-          <div className="flex-1 space-y-6" data-aos="fade-left">
-            <p className="text-xl font-bold">Hey, it's Matt 👋</p>
-            <p className="text-xl text-gray-300">
-              When I started coding TabaFit in 2023, my goal was simple: <i>make cardio fun again.</i>
-            </p>
-            <p className="text-xl text-gray-300">
-              I wanted a workout app that made cardio feel less like a solo grind and more like
-              a flexible, community-driven experience.
-            </p>
+        {/* Profile image */}
+        <div className="float-left w-48 mb-6 mr-6" data-aos="fade-right">
+          <div className="rounded-lg overflow-hidden border-4 border-gray-700 shadow-xl">
+            <img
+              src="/mattkuda.png"
+              alt="Matt - Creator of TabaFit"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
-        {/* Main content section */}
-        <div className="space-y-8 text-gray-300">
-          <p className="text-xl">
+        {/* Story content that will wrap around the image */}
+        <div className="space-y-6" data-aos="fade-left">
+          <p className="text-xl font-bold">Hey, it's Matt 👋</p>
+          <p className="text-xl text-gray-300">
+            When I started coding TabaFit in 2023, my goal was simple: <i>make cardio fun again.</i>
+          </p>
+          <p className="text-xl text-gray-300">
+            I wanted a workout app that made cardio feel less like a solo grind and more like
+            a flexible, community-driven experience.
+          </p>
+
+          <p className="text-xl text-gray-300">
             So, I set out to build TabaFit with three goals in mind:
           </p>
 
@@ -52,10 +47,13 @@ export const OurStory = (): JSX.Element => {
             </div>
           </div>
 
-          <p className="text-xl">
+          <p className="text-xl text-gray-300">
             TabaFit isn't just an app. It's a way to bring people together around fitness, one workout at a time.
           </p>
         </div>
+
+        {/* Clear the float before the video section */}
+        <div className="clear-both"></div>
 
         {/* Unlisted video section */}
         <div

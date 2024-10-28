@@ -4,7 +4,7 @@ import DownloadButton from './DownloadButton';
 export const MainContent = (): JSX.Element => (
   <section className="w-full mt-8 py-8 px-4">
     <div className="max-w-5xl mx-auto">
-      <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between gap-0">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between lg:gap-0 gap-8">
         {/* Left Column */}
         <div className="lg:w-[60%] text-center lg:text-left lg:pt-20">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Cardio Made Fun,</h1>
@@ -21,8 +21,14 @@ export const MainContent = (): JSX.Element => (
             <Image
               priority
               alt="App Screenshot"
-              layout="fill"
-              objectFit="contain"
+              height={0}
+              width={0}
+              sizes="100vw"
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'contain'
+              }}
               src="/TF_landing_photo_1.png"
             />
           </div>

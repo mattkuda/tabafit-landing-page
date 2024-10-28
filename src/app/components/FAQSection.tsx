@@ -13,18 +13,30 @@ export const FAQSection = (): JSX.Element => (
           </div>
         </details>
         <details className="bg-white rounded-lg shadow p-4 group">
-          <summary className="font-semibold text-lg cursor-pointer group-hover:text-primary">How does the waitlist work?</summary>
-          <div className="mt-2 text-sm text-gray-600">
-            By joining the waitlist, you will be among the first to know when TabaFit is available for download. You will receive exclusive updates and early access to the app, ensuring that you can start your fitness journey with TabaFit as soon as it launches.
-          </div>
-        </details>
-        <details className="bg-white rounded-lg shadow p-4 group">
           <summary className="font-semibold text-lg cursor-pointer group-hover:text-primary">What is Tabata?</summary>
           <div className="mt-2 text-sm text-gray-600">
             Tabata is a form of high-intensity interval training (HIIT) that consists of eight rounds of 20 seconds of intense exercise followed by 10 seconds of rest. It was developed by Dr. Izumi Tabata in Japan.
             <br />
             <br />
             The benefits of Tabata include improved cardiovascular health, increased metabolism, and efficient fat burning. This workout can be completed in just four minutes, making it a quick and effective exercise option.
+          </div>
+        </details>
+
+        <details className="bg-white rounded-lg shadow p-4 group">
+          <summary className="font-semibold text-lg cursor-pointer group-hover:text-primary">How can I customize my workouts?</summary>
+          <div className="mt-2 text-sm text-gray-600">
+            TabaFit offers flexible workout customization options to match your fitness level and goals. You can:
+            <br />
+            <br />
+            • Generate a workout on the fly based on your preferences
+            <br />
+            • Choose from different exercise types and intensity levels
+            <br />
+            • Adjust workout duration to fit your needs
+            <br />
+            • Create and save your favorite workout combinations
+            <br />
+            • Track your progress and adjust your routines as you improve
           </div>
         </details>
         <details className="bg-white rounded-lg shadow p-4 group">
