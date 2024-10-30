@@ -24,7 +24,7 @@ export const Header = (): JSX.Element => {
 
           <div className="hidden lg:flex items-center space-x-4">
             <a className="text-white hover:text-gray-400" href="#how-it-works">
-              How It Works
+              Features
             </a>
             <a className="text-white hover:text-gray-400" href="#testimonials">
               Testimonials
@@ -71,7 +71,7 @@ export const Header = (): JSX.Element => {
             </li>
             <li>
               <a className="text-xl py-2 px-4 hover:text-gray-400" href="#how-it-works" onClick={closeMenu}>
-                How It Works
+                Features
               </a>
             </li>
             <li>

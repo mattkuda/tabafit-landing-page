@@ -4,7 +4,7 @@ export const HowItWorksSection = (): JSX.Element => {
   return (
     <section className="w-full mt-16 bg-gray-100 text-black py-12 px-4">
       <div className="max-w-3xl mx-auto" data-aos="fade-up">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">How It Works</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Features</h2>
 
         {/* First row: Text on the left, image on the right */}
         <div className="flex flex-col md:flex-row items-center" data-aos="fade-up" data-aos-delay="100">

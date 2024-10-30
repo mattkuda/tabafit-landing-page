@@ -5,8 +5,6 @@ export const OurStory = (): JSX.Element => {
     <div className="container mx-auto px-4 py-16">
       <div className="max-w-4xl mx-auto text-gray-100" data-aos="fade-up">
         <h2 className="text-4xl font-bold text-center mb-12">Our Story</h2>
-
-        {/* Profile image */}
         <div className="float-left w-48 mb-6 mr-6" data-aos="fade-right">
           <div className="rounded-lg overflow-hidden border-4 border-gray-700 shadow-xl">
             <img
@@ -16,8 +14,6 @@ export const OurStory = (): JSX.Element => {
             />
           </div>
         </div>
-
-        {/* Story content that will wrap around the image */}
         <div className="space-y-6" data-aos="fade-left">
           <p className="text-xl font-bold">Hey, it's Matt 👋</p>
           <p className="text-xl text-gray-300">
