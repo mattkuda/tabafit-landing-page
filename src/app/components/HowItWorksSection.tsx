@@ -3,11 +3,11 @@ import Image from 'next/image';
 export const HowItWorksSection = (): JSX.Element => {
   return (
     <section className="w-full mt-16 bg-gray-100 text-black py-12 px-4">
-      <div className="max-w-3xl mx-auto" data-aos="fade-up">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Features</h2>
+      <div className="max-w-3xl mx-auto relative" data-aos="fade-up">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Build, Sweat, Share in 1-2-3</h2>
 
         {/* First row: Text on the left, image on the right */}
-        <div className="flex flex-col md:flex-row items-center" data-aos="fade-up" data-aos-delay="100">
+        <div className="flex flex-col md:flex-row items-center mb-8 md:mb-[-150px]" data-aos="fade-up" data-aos-delay="100">
           <div className="w-full md:w-1/2 text-left mb-6 md:mb-0">
             <h3 className="text-6xl font-semibold mb-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent inline">1</h3>
             <h3 className="text-3xl font-semibold mb-2">Create Your Custom Workout</h3>
@@ -22,7 +22,7 @@ export const HowItWorksSection = (): JSX.Element => {
               sizes="100vw"
               src="/how-it-works-1.png"
               style={{
-                height: 600,
+                height: 500,
                 objectFit: 'contain',
                 width: '100%',
               }}
@@ -30,8 +30,9 @@ export const HowItWorksSection = (): JSX.Element => {
             />
           </div>
         </div>
+
         {/* Second row: Image on the left, text on the right */}
-        <div className="flex flex-col md:flex-row-reverse items-center" data-aos="fade-up" data-aos-delay="200">
+        <div className="flex flex-col md:flex-row-reverse items-center mb-8 md:mb-[-150px] md:mt-[-100px]" data-aos="fade-up" data-aos-delay="200">
           <div className="w-full md:w-1/2 text-left mb-6 md:mb-0">
             <h3 className="text-6xl font-semibold mb-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent inline">2</h3>
             <h3 className="text-3xl font-semibold mb-2">Exercise with Guided Videos</h3>
@@ -46,7 +47,7 @@ export const HowItWorksSection = (): JSX.Element => {
               sizes="100vw"
               src="/how-it-works-2.png"
               style={{
-                height: 600,
+                height: 500,
                 objectFit: 'contain',
                 width: '100%',
               }}
@@ -56,7 +57,7 @@ export const HowItWorksSection = (): JSX.Element => {
         </div>
 
         {/* Third row: Text on the left, image on the right */}
-        <div className="flex flex-col md:flex-row items-center" data-aos="fade-up" data-aos-delay="300">
+        <div className="flex flex-col md:flex-row items-center mb-8 md:mt-[-100px]" data-aos="fade-up" data-aos-delay="300">
           <div className="w-full md:w-1/2 text-left mb-6 md:mb-0">
             <h3 className="text-6xl font-semibold mb-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent inline">3</h3>
             <h3 className="text-3xl font-semibold mb-2">Share with the Community</h3>
@@ -71,7 +72,7 @@ export const HowItWorksSection = (): JSX.Element => {
               sizes="100vw"
               src="/how-it-works-3.png"
               style={{
-                height: 600,
+                height: 500,
                 objectFit: 'contain',
                 width: '100%',
               }}
